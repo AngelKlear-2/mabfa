@@ -17,8 +17,10 @@ Built with Mineflayer, it automatically reconnects, mimics player activity, and 
 **Installation:**
 
 *Clone the repository*
-   git clone https://github.com/AngelKlear-2/mabfa.git
-   cd mabfa
+```bash
+git clone https://github.com/AngelKlear-2/mabfa.git
+cd mabfa
+```
 
 *Install dependencies*
 
