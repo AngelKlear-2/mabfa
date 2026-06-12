@@ -2,6 +2,7 @@
 
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Mineflayer](https://img.shields.io/badge/mineflayer%204.37.1-blue)](https://github.com/PrismarineJS/mineflayer)
 
 **A lightweight AFK bot for Minecraft Java Edition servers, designed specifically for Aternos.**  
 Built with Mineflayer, it automatically reconnects, mimics player activity, and supports server passwords (/register, /login).
