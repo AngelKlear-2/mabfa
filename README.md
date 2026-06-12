@@ -88,11 +88,12 @@ node bot.js
 npm start
 ```
    To keep it running 24/7 on a VPS or Raspberry Pi:
+   ```bash
    npm install -g pm2
    pm2 start bot.js --name mabfa
    pm2 save
    pm2 startup
-
+   ```
 *Stop the bot* – Press Ctrl+C or pm2 stop mabfa.
 
 ## **How It Works:**
