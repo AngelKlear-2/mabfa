@@ -22,7 +22,7 @@ Built with Mineflayer, it automatically reconnects, mimics player activity, and 
 - **Lightweight** – Only one dependency (mineflayer), simple config.
 - **Auto version detection** – Bot detects the server's Minecraft version automatically.
 
-**Installation:**
+## **Installation:**
 
 *Clone the repository*
 ```bash
@@ -36,7 +36,7 @@ cd mabfa
 npm install
 ```
 
-*Configure the bot*
+## *Configure the bot*
 
    Edit config.json with your Aternos server details:
 ```json
@@ -78,14 +78,14 @@ npm start
 
 *Stop the bot* – Press Ctrl+C or pm2 stop mabfa.
 
-**How It Works:**
+## **How It Works:**
 
 - On start, the bot connects to host:port.
 - After spawning, an interval runs every 2 seconds: it cycles through moving forward, moving backward, jumping, or looking around.
 - If the bot is disconnected (server offline, kick, error), it waits 5 seconds and tries to reconnect automatically.
 - If enablePassword: true, the bot sends /register <password> one second after spawn, then /login <password> half a second later.
 
-**Troubleshooting:**
+## **Troubleshooting:**
 
 | Issue | Solution |
 |-------|----------|
@@ -94,7 +94,7 @@ npm start
 | *Bot doesn't send password* | Make sure enablePassword: true and password is not empty. If the server is slow, increase the delay in bot.js (the 1000 in setTimeout). |
 | *Invalid username error* | The bot uses auth: 'offline' (hardcoded). It works with any username – no Microsoft login. |
 
-**Project Structure:**
+## **Project Structure:**
 ```structure
 mabfa/
 ├── bot.js            # Main script (connection, movement, reconnect)
@@ -103,7 +103,7 @@ mabfa/
 ├── README.md         # This file
 └── LICENSE           # MIT License
 ```
-**Contributing:**
+## **Contributing:**
 
 Pull requests are welcome. Feel free to fork and improve the bot – add chat commands, better anti-AFK, or Microsoft auth support.
 
@@ -113,8 +113,8 @@ Pull requests are welcome. Feel free to fork and improve the bot – add chat co
 4. Push: git push origin feature/amazing-feature
 5. Open a Pull Request
 
-**License:**  
+## **License:**  
 Distributed under the MIT License. See LICENSE for details.
 
-**Disclaimer:**  
+## **Disclaimer:**  
 Using bots may violate server rules. Always check if AFK bots are allowed on your Aternos server. The author is not responsible for any bans.
