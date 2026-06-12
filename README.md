@@ -83,7 +83,7 @@ npm install
 ```bash
 node bot.js
 ```
-or
+*or*
 ```bash
 npm start
 ```
