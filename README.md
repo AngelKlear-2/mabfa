@@ -5,16 +5,33 @@
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
 [![Mineflayer](https://img.shields.io/badge/mineflayer-4.37.1-blue)](https://github.com/PrismarineJS/mineflayer)
-
-[Installing](#installation)
 </div>
+
+  [Features](#features)
+  ·
+  [Installing](#installation)
+  ·
+  [Configure the bot](#configure-the-bot)
+  ·
+  [How It Works](#how-it-works)
+  ·
+  [Troubleshooting](#troubleshooting)
+  ·
+  [Project Structure](#project-structure)
+  ·
+  [Contributing](#contributing)
+  ·
+  [License](#license)
+  ·
+  [Disclaimer](#disclaimer)
+
 
 
 
 **A lightweight AFK bot for Minecraft Java Edition servers, designed specifically for Aternos.**  
 Built with Mineflayer, it automatically reconnects, mimics player activity, and supports server passwords (/register, /login).
 
-**Features:**
+## **Features:**
 
 - **Auto-connect & reconnect** – Joins the server automatically. If kicked or the server restarts, it waits 5 seconds and reconnects.
 - **Anti-AFK** – Every 2 seconds: move forward/back, jump, or look around. Prevents idle kicks.
