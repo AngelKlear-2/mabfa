@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
 [![Mineflayer](https://img.shields.io/badge/mineflayer-4.37.1-blue)](https://github.com/PrismarineJS/mineflayer)
 
-[Installing](#-installation)
+[Installing](#installation)
 </div>
 
 
