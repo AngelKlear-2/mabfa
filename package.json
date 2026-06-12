@@ -1,0 +1,14 @@
+{
+  "name": "mabfa",
+  "version": "1.0.0",
+  "description": "Minecraft AFK Bot For Aternos by AngelKlear",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "AngelKlear",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^4.37.1"
+  }
+}
