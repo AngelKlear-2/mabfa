@@ -87,14 +87,14 @@ npm start
 | *Invalid username error* | The bot uses auth: 'offline' (hardcoded). It works with any username – no Microsoft login. |
 
 **Project Structure:**
-
+```structure
 mabfa/
 ├── bot.js            # Main script (connection, movement, reconnect)
 ├── config.json       # Your settings (ignored by git)
 ├── package.json      # Dependencies and metadata
 ├── README.md         # This file
 └── LICENSE           # MIT License
-
+```
 **Contributing:**
 
 Pull requests are welcome. Feel free to fork and improve the bot – add chat commands, better anti-AFK, or Microsoft auth support.
