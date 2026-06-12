@@ -68,14 +68,14 @@ npm install
 ```
 
    **Fields:**  
-   
+   ```txt
    host – Your Aternos server address  
-   port – Server port (usually 25565)  
+   port – Server port
    username – Bot's in-game name  
    viewDistance – Lower = less server load  
    enablePassword – Set to true if your server requires /register and /login  
    password – Your password (ignored if enablePassword is false)
-
+   ```
    *Important for Aternos:* The server must be manually started (or kept alive with an uptime service). The bot cannot turn on the server.
 
 *Run the bot*
