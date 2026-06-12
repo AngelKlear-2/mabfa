@@ -54,7 +54,7 @@ npm install
 *Run the bot*
 
 ```bash
-   node bot.js
+node bot.js
 ```
    To keep it running 24/7 on a VPS or Raspberry Pi:
    npm install -g pm2
