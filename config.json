@@ -1,0 +1,10 @@
+{
+  "host": "example.aternos.me",
+  "port": 25565,
+  "username": "AFKbot",
+  "viewDistance": 5,
+  "_comment_enablePassword": "true - да или false - нет",
+  "enablePassword": false,
+  "_comment_password": "Оставьте поле пустым если enablePassword = false",
+  "password": ""
+}
