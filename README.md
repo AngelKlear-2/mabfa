@@ -1,5 +1,6 @@
 <div align="center">
-# Minecraft AFK Bot For Aternos (MABFA)
+
+# **🤖 Minecraft AFK Bot For Aternos (MABFA)🤖** 
 
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
