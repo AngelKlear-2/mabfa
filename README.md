@@ -56,6 +56,10 @@ npm install
 ```bash
 node bot.js
 ```
+or
+```bash
+npm start
+```
    To keep it running 24/7 on a VPS or Raspberry Pi:
    npm install -g pm2
    pm2 start bot.js --name mabfa
