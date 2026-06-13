@@ -5,6 +5,9 @@
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
 [![Mineflayer](https://img.shields.io/badge/mineflayer-4.37.1-blue)](https://github.com/PrismarineJS/mineflayer)
+
+[![RU](https://img.shields.io/badge/RU%20(%D0%A0%D0%A3%20%D0%92%D0%95%D0%A0%D0%A1%D0%98%D0%AF)-red)](README_ru.md)
+[![EN](https://img.shields.io/badge/EN%20(%D0%90%D0%9D%D0%93%D0%9B%20%D0%92%D0%95%D0%A0%D0%A1%D0%98%D0%AF)-red)](README.md)
 </div>
 
   [Features](#features)
