@@ -97,14 +97,14 @@ npm start
    pm2 save
    pm2 startup
    ```
-*Stop the bot* – Press Ctrl+C or pm2 stop mabfa.
+*Stop the bot* – Press Ctrl+C or `pm2 stop mabfa`.
 
 ## **How It Works:**
 
-- On start, the bot connects to host:port.
+- On start, the bot connects to `host:port`.
 - After spawning, an interval runs every 2 seconds: it cycles through moving forward, moving backward, jumping, or looking around.
 - If the bot is disconnected (server offline, kick, error), it waits 5 seconds and tries to reconnect automatically.
-- If enablePassword: true, the bot sends /register <password> one second after spawn, then /login <password> half a second later.
+- If `enablePassword: true`, the bot sends `/register <password>` one second after spawn, then `/login <password>` half a second later.
 
 ## **Troubleshooting:**
 
