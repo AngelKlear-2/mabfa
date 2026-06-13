@@ -129,9 +129,9 @@ mabfa/
 Pull requests are welcome. Feel free to fork and improve the bot – add chat commands, better anti-AFK, or Microsoft auth support.
 
 1. Fork the repo
-2. Create a branch: git checkout -b feature/amazing-feature
-3. Commit changes: git commit -m 'Add amazing feature'
-4. Push: git push origin feature/amazing-feature
+2. Create a branch: `git checkout -b feature/amazing-feature`
+3. Commit changes: `git commit -m 'Add amazing feature'`
+4. Push: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
 ## **License:**  
